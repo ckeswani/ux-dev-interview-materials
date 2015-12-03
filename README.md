@@ -6,11 +6,11 @@ Use of your favorite libraries is permitted but optional.  You will demo this fr
 ## Design
 ![](https://github.com/ckeswani/ux-dev-interview-materials/blob/master/spec/FieldBuilderRegular.png)
 
-*This screen is for screens where width > 420*
+*For screens where width > 420*
 
 ![](https://github.com/ckeswani/ux-dev-interview-materials/blob/master/spec/FieldBuilderCompact.png)
 
-*This screen is for screens where width <= 420.*
+*For screens where width <= 420.*
 
 ## Requirements
 * The Label field is required.
