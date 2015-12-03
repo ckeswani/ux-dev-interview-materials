@@ -12,6 +12,8 @@ Use of your favorite libraries is permitted but optional.  You will demo this fr
 
 *For screens where width <= 420.*
 
+The mockup is intended to give an idea of the desired functionality--you can make different visual design choices as long as the result meets the requirements specified below.
+
 ## Requirements
 * The Label field is required.
 * Individual choices cannot be longer than 40 characters. If a choice is longer than 40 characters, the excess characters must be visually distinct.
