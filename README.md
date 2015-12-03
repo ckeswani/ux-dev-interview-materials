@@ -1,8 +1,7 @@
 # Interview materials for UX dev
 ## The scenario
-hello
 
-Assume you are working on the admin controls of a product that allows users to set up their own input forms. Create a control to modify the properties of a multiple choice field. For the purpose of this exercise, it’s not necessary to have the control actually build a multiple choice field; assume that functionality is handled by a service and you just need to interact with its APIs. Retrieve JSON metadata from https://api.myjson.com/bins/4eemv?pretty=1 and submit the changes to this {API for fake persistence} (which actually just writes to the browser console for ease of demonstrating).
+Assume you are working on the admin controls of a product that allows users to set up their own input forms. Create a control to modify the properties of a multiple choice field. For the purpose of this exercise, it’s not necessary to have the control actually build a multiple choice field; assume that functionality is handled by a service and you just need to interact with its APIs. Retrieve JSON metadata from https://api.myjson.com/bins/4eemv?pretty=1.  The submit button should create a json object and post it to  http://www.mocky.io/v2/566061f21200008e3aabd919  It should also log the post data to the console.
 Use of your favorite libraries is permitted but optional.  You will demo this from a browser - you are free to use any or no webserver.  
 ## Design
 ![](https://github.com/ckeswani/ux-dev-interview-materials/blob/master/spec/FieldBuilderRegular.png)
