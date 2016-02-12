@@ -25,5 +25,5 @@ The mockup is intended to give an idea of the desired functionality--you can mak
   * The Label field is required.
   * Individual choices cannot be longer than 40 characters. If a choice is longer than 40 characters, the excess characters must be visually distinct.
   * There cannot be more than 50 choices altogether.
-3. If the default value is not one of the choices, it should be added to the list of choices when the field is saved..
+3. If the default value is not one of the choices, it should be added to the list of choices when the field is saved.
 4. Layout must be responsive to multiple device sizes (phone, tablet, desktop browser).  The spec shows the layout at full size and phone size.

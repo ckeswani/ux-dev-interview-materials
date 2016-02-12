@@ -1,8 +1,6 @@
-var FieldService = {
-	getFieldMetaDataJSON: function (fieldId)
-	{
-		// in real life, this would call an API
-		return '{
+var FieldService =  {
+	getField: function(id) {
+		return {
 		  "label": "Sales region",
 		  "required": false,
 		  "choices": [
@@ -16,6 +14,9 @@ var FieldService = {
 		  ],
 		  "displayAlpha": true,
 		  "default": "North America"
-		}';
+		}
+	},
+	saveField: function (fieldJson) {
+		// Add the code here to call the API (or temporarily, just log fieldJson to the console)
 	}
 }
